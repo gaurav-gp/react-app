@@ -1,0 +1,46 @@
+:root{
+    --mainblue:#2a2a72;
+    --lightblue:#90ffd;
+    --mainwhite:#ffffff;
+    --maindark:#232528;
+    --mainyellow:#ffa400;
+}
+
+body{
+    font-family:'Rubik', sans-serif !important;
+    background: var(--mainwhite) !important;
+    color:var(--maindark) !important;
+}
+
+.text-title{
+    letter-spacing:0.3rem;
+    text-transform:uppercase;
+}
+
+.text-blue{
+    color:var(--mainblue)
+}
+
+.text-bright{
+    color:var(--lightblue)
+}
+
+.btn-black{
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color:var(--maindark);
+    border-radius: 0 !important;
+    border: 1px solid var(--maindark) !important;
+}
+
+.btn-black:hover{
+    background: var(--maindark);
+    color:var(--mainwhite) !important;
+}
+
+.cart-icon{
+    cursor:pointer;
+    font-size:16px;
+    color:var(--mainyellow);
+}
